@@ -104,6 +104,7 @@ h1 {
     margin-bottom: 16px;
     font-weight: 700;
     line-height: 1.4;
+    min-height: 3.5em;
 }
 
 .code-block-wrapper {

@@ -151,7 +151,8 @@ pre {
 }
 
 .copy-btn.copied {
-    background-color: #34C759; /* Success Green */
+    background-color: #34C759;
+    /* Success Green */
 }
 
 /* Footer */
@@ -173,15 +174,16 @@ footer {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(5px);
-    align-items: center;
-    justify-content: center;
     opacity: 0;
     transition: opacity 0.3s ease;
 }
 
 .modal.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     opacity: 1;
 }
 
@@ -191,7 +193,7 @@ footer {
     max-width: 90%;
     max-height: 90vh;
     border-radius: 4px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
     transform: scale(0.9);
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
